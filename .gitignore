@@ -1,5 +1,9 @@
 # Node.js Modules
 node_modules
 
-# .gitkeep directory
+# no-use directory
 !.gitkeep
+bin/*
+
+# Logfile
+*.log
