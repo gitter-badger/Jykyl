@@ -1,0 +1,13 @@
+{
+    "compilerOptions":{
+        "allowJs": true,
+        "moduleResolution":"node",
+        "outDir":"./bin/"
+    },
+    "types": [
+        "node"
+    ],
+    "include":[
+        "src/**/*"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "soda-bottle",
+  "version": "0.1.0",
+  "description": "a simple package tool powered by typescript",
+  "main": "main.js",
+  "repository": "https://github.com/serverLua/Soda-Bottle",
+  "author": "serverLua(Andy Chen)",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node .\\scripts\\clean.js && npx tsc"
+  },
+  "dependencies": {
+    "@types/node": "^10.9.2",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.4.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  }
+}
