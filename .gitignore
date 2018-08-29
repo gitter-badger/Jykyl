@@ -3,7 +3,7 @@ node_modules
 
 # no-use directory
 !.gitkeep
-bin/*
+bin/*.*
 
 # Logfile
 *.log
